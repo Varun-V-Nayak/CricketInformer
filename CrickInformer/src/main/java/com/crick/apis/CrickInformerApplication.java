@@ -8,7 +8,7 @@ public class CrickInformerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CrickInformerApplication.class, args);
-
+		System.out.println("new");
 	}
 
 }
