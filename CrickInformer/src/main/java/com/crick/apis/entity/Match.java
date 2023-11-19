@@ -36,7 +36,7 @@ public class Match {
 
     // set match status according to completed or not
 
-    public void setMatchStatus(MatchStatus matchStatus) {
+    public void setMatchStatus() {
         if(textComplete.isBlank()){
             this.matchStatus = MatchStatus.LIVE;
         }else{
